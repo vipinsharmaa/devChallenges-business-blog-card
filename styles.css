@@ -1,0 +1,94 @@
+/*  CSS Reset */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*  Custom CSS  */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.wrapper {
+    background-color: #F2F5F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    max-width: 400px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin: 6em auto;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+.hero-img {
+    border-radius: 10px;
+}
+
+.overlay {
+    margin-top: -80px;
+    z-index: 999;
+}
+
+article {
+    padding: 0.2rem 2rem;
+
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #111729;
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 16px;
+    color: #111729;
+}
+
+p {
+    color: #677489;
+}
+
+p.description {
+
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.person {
+    padding: 1rem 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.avatar {
+    width: 2.2rem;
+    border-radius: 50px;
+}
+
+.designation {
+    padding-top: 0.2rem;
+    font-size: 0.7rem;
+}
